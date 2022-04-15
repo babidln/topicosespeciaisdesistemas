@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio - aula 6</title>
+</head>
+<body>
+    <p>Vamos Iniciar nossa Interação</p>
+    <input type="number" id="num1" />
+    <input type="number" id="num2" />
+    <input type="number" id="num3" />
+     <button onclick="calcular()">Média</button>
+</body>
+<script>
+        function calcular() {
+           var num1=document.getElementById("num1").value;
+           var num2=document.getElementById("num2").value;
+           var num3=document.getElementById("num3").value;
+           alert('numero 1 é ' + num1);
+           alert('numero 2 é ' + num2);
+           alert('numero 3 é ' + num3);
+           var soma = parseInt(num1) + parseInt(num2) + parseInt(num3);
+           alert('a soma é ' + soma);
+           var media = soma / 3;
+           alert('A media é ' + media);   
+        }
+    </script>
+    </html>
+    
