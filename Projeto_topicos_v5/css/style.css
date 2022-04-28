@@ -1,0 +1,157 @@
+
+.mvv{
+    display: flex;
+    color: white;
+}
+.ensino{
+    display: flex;
+}
+.pesquisa{
+    display: flex;
+}
+.extensao{
+    display: flex;
+}
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+}
+.banner{
+    width: 99%;
+    margin-left: 10px;    
+}
+.text{
+    margin: 20px;
+    color: white;
+}
+h3{
+    text-align: center;
+}
+footer{
+    font-size: 10px;
+    text-align: center;
+}
+.iconm{
+    width: 20px;
+}
+header{
+    width: 100%;
+    margin-bottom: 36px;
+    margin-top: 36px;
+}
+header {
+    text-align: right;
+}
+.logo{
+    float: left;
+}
+nav{
+   display: inline-block;
+    margin-top: 130px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    border: 1px solid gray;
+    padding: 3px;
+    background-color: #64868E
+}
+body
+{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(#000000, #434343);
+}
+.iconchat{
+    width: 30px;
+}
+.button {
+  background-color: #22577E;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* -----------------Chat----------------------*/
+.containerchat {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+  }
+  .containerchat::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .containerchat img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  .containerchat img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+  .time-left {
+    float: left;
+    color: #999;
+  }
+  /* -----------------Chat----------------------*/
+  /* -----------------menu----------------------*/
+  
+.menuleft{
+    float: left;
+    margin-right: 20px;
+}
+.vertical-menu {
+    width: 200px; 
+  }
+  
+  .vertical-menu a {
+    background-color: #eee; 
+    color: black; 
+    display: block; 
+    padding: 12px;
+    text-decoration: none; 
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; 
+}
+  
+  .vertical-menu a.active {
+    background-color: #04AA6D; 
+    color: white;
+  }
+
+  .menu
+  {
+    color: #64868E;
+  }
+
+  h1
+  {
+    color: aliceblue;
+    text-align: center;
+  }
+
+  /* -----------------menu----------------------*/

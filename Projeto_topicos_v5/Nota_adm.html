@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/coelho.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="HN">
+    <h1>CONTROLE DE NOTAS E FALTAS</h1>
+    </header>
+    <section class="SN">
+        <h1>Notas</h1>
+        <article>
+            <button onclick="MostrarNota1('Nota1')" class="button">1° Bimestre</button>
+            <button onclick="MostrarNota2('Nota2')" class="button">2° Bimestre</button>
+            <button onclick="MostrarNota3('Nota3')" class="button">3° Bimestre</button>
+            <button onclick="MostrarNota4('Nota4')" class="button">4° Bimestre</button>
+        </article>
+        
+    <div class="superdiv">
+        <div id="Nota1" style="display: none;">
+    <header>
+            <h2>Matéria 1</h2>
+    </header>       
+            <table>
+                <tr>
+                    <th>aluno</th>
+                    <th>Prova 1</th>
+                    <th>Prova 2</th>
+                    <th>Prova 3</th>
+                    <th>Prova 4</th>
+                    <th>Média</th>
+                    <th>Número de faltas</th>
+                    <th></th>
+                </tr>
+
+                <tr>
+                    <td>Joao</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    
+                    <td><button class="button">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>Ana</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    <td><button class="button">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>Gabriel</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    <td><button class="button">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>Bruno</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    <td><button class="button">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>Carolina</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    <td><button class="button">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>Julia</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    <td><button class="button">Editar</button></td>
+                </tr>
+
+            </table>
+
+        </div>
+
+        <div id="Nota2" style="display: none;">
+            
+            <h2>Matéria 2</h2>
+
+             <table>
+                <tr>
+                    <th>aluno</th>
+                    <th>Prova 1</th>
+                    <th>Prova 2</th>
+                    <th>Prova 3</th>
+                    <th>Prova 4</th>
+                    <th>Média</th>
+                    <th>Número de faltas</th>
+                    <th></th>
+                </tr>
+                
+                <tr>
+                    <td>Joao</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    <td><button class="button">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>Ana</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    <td><button class="button">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>Gabriel</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    <td><button class="button">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>Bruno</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    <td><button class="button">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>Carolina</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    <td><button class="button">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>Julia</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    <td><button class="button">Editar</button></td>
+                </tr>
+
+            </table>
+
+        </div>
+
+        <div id="Nota3" style="display: none;">
+
+            <h2>Matéria 3 </h2>
+            
+            <table>
+                <tr>
+                    <th>aluno</th>
+                    <th>Prova 1</th>
+                    <th>Prova 2</th>
+                    <th>Prova 3</th>
+                    <th>Prova 4</th>
+                    <th>Média</th>
+                    <th>Número de faltas</th>
+                    <th></th>
+                </tr>
+                
+                <tr>
+                    <td>Joao</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    <td><button class="button">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>Ana</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    <td><button class="button">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>Gabriel</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    <td><button class="button">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>Bruno</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    <td><button class="button">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>Carolina</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    <td><button class="button">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>Julia</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    <td><button class="button">Editar</button></td>
+                </tr>
+                
+
+            </table>
+
+        </div>
+
+        <div id="Nota4" style="display: none;">
+
+            <h2>Matéria 4</h2>
+            
+            <table>
+                <tr>
+                    <th>aluno</th>
+                    <th>Prova 1</th>
+                    <th>Prova 2</th>
+                    <th>Prova 3</th>
+                    <th>Prova 4</th>
+                    <th>Média</th>
+                    <th>Número de faltas</th>
+                    <th></th>
+                </tr>
+                
+                <tr>
+                    <td>Joao</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    <td><button class="button">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>Ana</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    <td><button class="button">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>Gabriel</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    <td><button class="button">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>Bruno</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    <td><button class="button">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>Carolina</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    <td><button class="button">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>Julia</td>
+                    <td>1,0</td>
+                    <td>3,5</td>
+                    <td>4,6</td>
+                    <td>0,2</td>
+                    <td></td>
+                    <td>0/25</td>
+                    <td><button class="button">Editar</button></td>
+                </tr>
+
+            </table>
+
+        </div>
+        
+    </div>   
+    
+    </section>
+</body>
+<script src="script/script.js"></script>
+</html>

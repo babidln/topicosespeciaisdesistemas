@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/calendario.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <article>
+            <button onclick="MostrarCalendario('Calendario')" class="button">Calendario</button>
+            
+        </article>
+        <article id="Calendario" style="display: none;">
+            <div class="container">
+
+                <div class="calendar-base">
+            
+                <div class="year">2022</div>
+                
+            
+                <div class="triangle-left"></div>
+                
+                <div class="triangle-right"></div>
+                
+            
+                <div class="months">
+                    <span class="month-hover">Jan</span>
+                    <span class="month-hover">Fev</span> 
+                    <span class="month-hover">Mar</span> 
+                    <strong class="month-color">Abr</strong>
+                    <span class="month-hover">Mai</span>
+                    <span class="month-hover">Jun</span>
+                    <span class="month-hover">Jul</span> 
+                    <span class="month-hover">Ago</span> 
+                    <span class="month-hover">Set</span> 
+                    <span class="month-hover">Out</span> 
+                    <span class="month-hover">Nov</span> 
+                    <span class="month-hover">Dez</span>
+                </div>
+                <hr class="month-line" />
+            
+                <div class="days">SEG TER QAR QUI SEX SAB DOM</div>
+                
+            
+                <div class="num-dates">
+            
+                    <div class="first-week"><span class="grey">26 27 28 29 30 31</span> 01</div>
+                    
+                    <div class="second-week">02 03 04 05 06 07 08</div>
+                    
+                    <div class="third-week"> 09 10 11 12 13 14 15</div>
+                    
+                    <div class="fourth-week"> 16 17 18 19 20 21 22</div>
+                    
+                    <div class="fifth-week"> 23 24 25 26 <strong class="white">27</strong> 28 29</div>
+                    
+                    <div class="sixth-week"> 30 <span class="grey">01 02 03 04 05 06</span></div>
+                    
+                </div>
+                
+                <div class="event-indicator"></div>
+                
+                <div class="active-day"></div>
+                
+                <div class="event-indicator two"></div>
+                
+            
+                </div>
+                
+                <div class="calendar-left">
+            
+                <div class="hamburger">
+                    <div class="burger-line"></div>
+                    
+                    <div class="burger-line"></div>
+                    
+                    <div class="burger-line"></div>
+                    
+                </div>
+
+                <div class="num-date">27</div>
+                
+                <div class="day">Sexta-Feira</div>
+                
+                <div class="current-events">Eventos atuais
+                    <br/>
+                    <ul>
+                    <li>Dia 28 Apresentação de trabalho</li>
+                    </ul>
+                    <span class="posts">Ver proximos eventos</span></div>
+                
+            
+                <div class="create-event">Criar evento</div>
+                
+                <hr class="event-line" />
+                <div class="add-event"><span class="add">+</span></div>
+
+            </div>
+                
+        </article>
+        <article >
+            <h3>Planejamento mensal</h3>
+            </div>
+            <button class="accordion">Jan</button>
+            <div class="panel">
+                <td><input type="text" name="text" size="50" class="caixacoment"></td>
+                <td><button class="button">Enviar</button></td>
+                <div class="fileadd">
+                    <input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
+                    <input type="file" />
+                </div>
+            </div>
+            
+            <button class="accordion">fev</button>
+            <div class="panel">
+                <td><input type="text" name="text" size="50" class="caixacoment"></td>
+                <td><button class="button">Enviar</button></td>
+                <div class="fileadd">
+                    <input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
+                    <input type="file" />
+                </div>
+            </div>
+            
+            <button class="accordion">Mar</button>
+            <div class="panel">
+                <td><input type="text" name="text" size="50" class="caixacoment"></td>
+                <td><button class="button">Enviar</button></td>
+                <div class="fileadd">
+                    <input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
+                    <input type="file" />
+                </div>
+            </div>
+
+            <button class="accordion">Abr</button>
+            <div class="panel">
+                <td><input type="text" name="text" size="50" class="caixacoment"></td>
+                <td><button class="button">Enviar</button></td>
+                <div class="fileadd">
+                    <input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
+                    <input type="file" />
+                </div>
+            </div>
+            <button class="accordion">Mai</button>
+            <div class="panel">
+                <td><input type="text" name="text" size="50" class="caixacoment"></td>
+                <td><button class="button">Enviar</button></td>
+                <div class="fileadd">
+                    <input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
+                    <input type="file" />
+                </div>
+            </div>
+            <button class="accordion">Jun</button>
+            <div class="panel">
+                <td><input type="text" name="text" size="50" class="caixacoment"></td>
+                <td><button class="button">Enviar</button></td>
+                <div class="fileadd">
+                    <input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
+                    <input type="file" />
+                </div>
+            </div>
+            <button class="accordion">Jul</button>
+            <div class="panel">
+                <td><input type="text" name="text" size="50" class="caixacoment"></td>
+                <td><button class="button">Enviar</button></td>
+                <div class="fileadd">
+                    <input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
+                    <input type="file" />
+                </div>
+            </div>
+            <button class="accordion">Ago</button>
+            <div class="panel">
+                <td><input type="text" name="text" size="50" class="caixacoment"></td>
+                <td><button class="button">Enviar</button></td>
+                <div class="fileadd">
+                    <input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
+                    <input type="file" />
+                </div>
+            </div>
+            <button class="accordion">Set</button>
+            <div class="panel">
+                <td><input type="text" name="text" size="50" class="caixacoment"></td>
+                <td><button class="button">Enviar</button></td>
+                <div class="fileadd">
+                    <input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
+                    <input type="file" />
+                </div>
+            </div>
+            <button class="accordion">Out</button>
+            <div class="panel">
+                <td><input type="text" name="text" size="50" class="caixacoment"></td>
+                <td><button class="button">Enviar</button></td>
+                <div class="fileadd">
+                    <input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
+                    <input type="file" />
+                </div>
+            </div>
+            <button class="accordion">Nov</button>
+            <div class="panel">
+                <td><input type="text" name="text" size="50" class="caixacoment"></td>
+                <td><button class="button">Enviar</button></td>
+                <div class="fileadd">
+                    <input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
+                    <input type="file" />
+                </div>
+            </div>
+            <button class="accordion">Dez</button>
+            <div class="panel">
+                <td><input type="text" name="text" size="50" class="caixacoment"></td>
+                <td><button class="button">Enviar</button></td>
+                <div class="fileadd">
+                    <input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
+                    <input type="file" />
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+<script src="script/script.js"> </script>
+</html>

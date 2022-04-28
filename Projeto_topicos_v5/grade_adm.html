@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/coelho.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="HG"><h1>Grade horaria dos meus alunos</h1></header>
+    <section class="SG">
+        <h5 class="h5select">Selecione o alunos</h5>
+        <select>
+            <option>Joao</option>
+            <option>Ana</option>
+            <option>Gabriel</option>
+            <option>Bruno</option>
+            <option>Carolina</option>
+            <option>Julia</option>   
+        </select>
+        <article>
+            <button onclick="MostrarMatricula('matricula')" class="button">Matricula das aulas</button>
+            <button onclick="MostrarExtras('extras')" class="button">Matriculas das aulas extras</button>
+        </article>
+        <article>
+            <div  id="matricula" style="display: none;">
+                <table>
+                    <tr>
+                        <th>Matérias</th>
+                        <th>carga horária</th>
+                        <th>Aprovar</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>Matérias 1</td>
+                        <td>x horas</td>
+                        <td>
+                            <div>
+                                <input type = "checkbox" id = "aprovado" name = "ok/nok" value = "aprovado">
+                                <label for = "aprovado"> Aprovado </label>
+                            </div>
+                            <div>
+                                <input type = "checkbox" id = "naprovado" name = "ok/nok" value = "naprovado">
+                                <label for = "naprovado">Não foi Aprovado </label>
+                            </div>
+                        </td>
+                        <td><button class="button">Editar</button></td>
+                    </tr>
+                    <tr>
+                        <td>Matérias 2</td>
+                        <td>x horas</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Matérias 3</td>
+                        <td>x horas</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Matérias 4</td>
+                        <td>x horas</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            <div  id="extras" style="display: none;">
+                <table>
+                    <tr>
+                        <th>Extras</th>
+                        <th>carga horária</th>
+                        <th>Aprovar</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>Matérias extra 1</td>
+                        <td>x horas</td>
+                        <td>
+                            <div>
+                                <input type = "checkbox" id = "aprovado" name = "ok/nok" value = "aprovado">
+                                <label for = "aprovado"> Aprovado </label>
+                            </div>
+                            <div>
+                                <input type = "checkbox" id = "naprovado" name = "ok/nok" value = "naprovado">
+                                <label for = "naprovado">Não foi Aprovado </label>
+                            </div>
+                        </td>
+                        <td><button class="button">Editar</button></td>
+                    </tr>
+                    <tr>
+                        <td>Matérias extra 2</td>
+                        <td>x horas</td>
+                        <td>
+                            <div>
+                                <input type = "checkbox" id = "aprovado" name = "ok/nok" value = "aprovado">
+                                <label for = "aprovado"> Aprovado </label>
+                            </div>
+                            <div>
+                                <input type = "checkbox" id = "naprovado" name = "ok/nok" value = "naprovado">
+                                <label for = "naprovado">Não foi Aprovado </label>
+                            </div>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Matérias extra 3</td>
+                        <td>x horas</td>
+                        <td>
+                            <div>
+                                <input type = "checkbox" id = "aprovado" name = "ok/nok" value = "aprovado">
+                                <label for = "aprovado"> Aprovado </label>
+                            </div>
+                            <div>
+                                <input type = "checkbox" id = "naprovado" name = "ok/nok" value = "naprovado">
+                                <label for = "naprovado">Não foi Aprovado </label>
+                            </div>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Matérias extra 4</td>
+                        <td>x horas</td>
+                        <td>
+                            <div>
+                                <input type = "checkbox" id = "aprovado" name = "ok/nok" value = "aprovado">
+                                <label for = "aprovado"> Aprovado </label>
+                            </div>
+                            <div>
+                                <input type = "checkbox" id = "naprovado" name = "ok/nok" value = "naprovado">
+                                <label for = "naprovado">Não foi Aprovado </label>
+                            </div>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </article>
+    </section>
+    <footer></footer>
+</body>
+<script src="script/script.js"></script>
+</html>

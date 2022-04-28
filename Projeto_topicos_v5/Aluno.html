@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluno</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/logo.png" class="logo"></a>
+        <nav>
+            <button onclick="MostrarMenu('menu')"><img src="img/menu.png" class="iconm"></button>
+          
+            <div class="menu" id = "menu" style="display: none;">   
+                <h2>Meu menu</h2>  
+                <a href="index.html">Página inicial</a>  
+            </div>
+        </nav>
+        <hr/>
+    </header>
+    <section>
+        <article class="menuleft">
+            <ul>
+                <div class="vertical-menu">
+                    <a href="Aluno.html" class="active">Home</a>
+                    <a href="#" onclick="ExibirIframe('Chat')">Chat</a>
+                    <a href="#" onclick="ExibirIframeNota('Nota')">Notas e faltas</a>
+                    <a href="#" onclick="ExibirIframeAula('Aula')">Minhas aulas</a>
+                    <a href="#" onclick="ExibirIframeGrade('Grade')">Grade Horaria</a>
+                    <a href="#" onclick="ExibirIframeMaterias('Materias')">Material de estudo</a>
+                    <a href="#" onclick="MostrarCalendario('Calendario')">Calendario</a>
+                  </div>
+            </ul>
+        </article>
+            <iframe src="Calendario.html" width="1280" height="1000" id= "Calendario"  style="display: none;"></iframe>
+            <iframe src="chat.html" width="1280" height="1000" id= "Chat"  style="display: none;"></iframe>
+            <iframe src="Notas.html" width="1280" height="1000" id= "Nota"  style="display: none;"></iframe>
+            <iframe src="minhas_Materias.html" width="1280" height="1000" id="Aula" style="display: none;"></iframe>
+            <iframe src="Minha_grade.html" width="1280" height="1000" id="Grade" style="display: none;"></iframe>
+            <iframe src="Materias.html" width="1280" height="1000" id="Materias" style="display: none;"></iframe> 
+        <article>
+            <h1>Pagina principal</h1>
+        </article>
+    </section>
+    <footer><p>Trabalho Topicos_Especiais_de_Sistemas ©</p></footer> 
+</body>
+<script src="script/script.js"> </script>
+</html>

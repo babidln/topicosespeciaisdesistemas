@@ -1,0 +1,37 @@
+body
+{
+    color: aliceblue;
+}
+
+h1
+{
+    color: #04AA6D;
+    text-align: center;
+}
+
+ul
+{
+    margin-top: 60px;
+    font-size: 20px;
+    list-style: none;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.bot
+{
+    margin-top: 75px;
+    text-align: center;
+}
+
+h2
+{
+    color: #04AA6D;
+    text-align: center;
+    margin-top: 60px;
+}
+
+b
+{
+    margin-left: 15px;
+}
