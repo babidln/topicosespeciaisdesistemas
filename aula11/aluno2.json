@@ -1,0 +1,16 @@
+[
+    {"nome" : "Joaquim",
+        "idade" : 7,
+        "email" : "joaquin@gmail.com",
+        "statusativextra" : true,
+        "activextra" : ["nataçao", "judo"]
+    }
+
+    {"nome" :"Juliana",
+    "idade" : 8,
+    "email" :"juju@gmail.com",
+    "statusativextra" : false,
+    "activextra" : [null],
+
+}
+]
