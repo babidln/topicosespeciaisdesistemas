@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_img.css">
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    <title>Professor</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="pos-f-t ">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                    <div>
+                        <h5 class="text-white h4" id="BProfLogado"></h5>
+                        <span class="text-muted" id="subtitulo"></span>
+                    </div>
+                    <div class="text-right">
+                        <a href="../index.html"><img src="../img/Logout.png" class="hvr-pop"></a>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <img src="../img/banner2.jpg" class="mb-1 h-25 w-auto">
+
+        <div class="container">
+            <!-- chat -->
+            <p>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Chat
+                </button>
+            </p>
+            
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    <!-- navbar do chat -->
+                    <nav>
+                        <div class="nav nav-tabs mb-2" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home"
+                                role="tab" aria-controls="nav-home" aria-selected="true">Aluno 1</a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile"
+                                role="tab" aria-controls="nav-profile" aria-selected="false">Aluno 2</a>
+                            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact"
+                                role="tab" aria-controls="nav-contact" aria-selected="false">Aluno 3</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                            aria-labelledby="nav-home-tab">
+                            <div class="text-left ">
+                                <h6>Aluno: </h6> Boa tarde.
+                            </div>
+                            <div class="text-right">
+                                <h6>Professor:</h6>Boa tarde, tudo bem?
+                            </div>
+                            <div class="text-left">
+                                <h6>Aluno:</h6> Hoje tem aula?
+                            </div>
+                            <div class="text-right">
+                                <h6>Professor:</h6>Hoje não, graças a deus!
+                            </div>
+                            <div class="text-left">
+                                <h6>Aluno:</h6> Boaaa.
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="text-left ">
+                                <h6>Aluno: </h6> Ola, tudo bem?
+                            </div>
+                            <div class="text-right">
+                                <h6>Professor:</h6>Boa tarde, tudo bem sim e você?
+                            </div>
+                            <div class="text-left">
+                                <h6>Aluno:</h6> Hoje tem aula?
+                            </div>
+                            <div class="text-right">
+                                <h6>Professor:</h6>Hoje não, graças a deus!
+                            </div>
+                            <div class="text-left">
+                                <h6>Aluno:</h6> Ai sim.
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <div class="text-left ">
+                                <h6>Aluno: </h6> Opa Professor.
+                            </div>
+                            <div class="text-right">
+                                <h6>Professor:</h6>Boa tarde, tudo bem?
+                            </div>
+                            <div class="text-left">
+                                <h6>Aluno:</h6> Hoje tem aula?
+                            </div>
+                            <div class="text-right">
+                                <h6>Professor:</h6>Hoje não, graças a deus!
+                            </div>
+                            <div class="text-left">
+                                <h6>Aluno:</h6> Dale.
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- caixa de texto e botao -->
+                    <div class="input-group mb-3 mt-3">
+                        <input type="text" class="form-control" placeholder="Mensagem" aria-label="Mensagem"
+                            aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Enviar</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- fim do chat -->
+
+            <!-- accordion -->
+            <div class="accordion" id="accordionExample">
+
+                <div class="card">
+
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                Notas/Faltas
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                        data-parent="#accordionExample">
+
+                        <div class="card-body">
+                            <!-- conteudo "notas/faltas" aqui -->
+
+                            <div class="row">
+                                 <!-- Seleciona uma turmas -->
+                                 <div class="form-group col-sm-2">
+                                    <label for="turmas">Turmas</label>
+                                    <select class="form-control" class="select-listagem" id="turmas">
+                                        <option value="">Selecione...</option>
+                                    </select>
+                                </div>
+
+                                <!-- Seleciona uma Materia -->
+                                <div class="form-group col-sm-2">
+                                    <label for="selectMaterias">Materias</label>
+                                    <select class="form-control" class="select-listagem" id="selectMaterias">
+                                        <option value="">Selecione...</option>
+                                    </select>
+                                </div>
+
+                               
+
+                            </div>
+
+                            <!-- tabela com alunos -->
+                            <table class="table table-hover table-ativo">
+                                <!-- cabeçalho -->
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Aluno</th>
+                                        <th scope="col">Faltas</th>
+                                        <th scope="col">A1</th>
+                                        <th scope="col">A2</th>
+                                        <th scope="col">Media</th>
+                                    </tr>
+                                </thead>
+                                <!-- linhas da tabela -->
+                                <tbody id="tbody">
+                                    <!-- Aluno -->
+                                    <!-- Faltas -->
+                                    <!-- A1 -->
+                                    <!-- A2 -->
+                                    <!-- Media -->
+                                </tbody>
+                                <!-- termina linhas da tabela -->
+                            </table>
+
+                            <!-- termina conteudo notas e faltas -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+
+                    <div class="card-header" id="headingTwo">
+
+                        <h5 class="mb-0">
+
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Material de estudo
+                            </button>
+
+                        </h5>
+
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+
+                        <div class="card-body">
+                            <!-- conteudo "material de estudo" aqui -->
+                            <div class="row">
+                                <!-- Seleciona uma Materia -->
+                                <div class="form-group col-sm-2">
+                                    <label for="selectMaterias2">Materias</label>
+                                    <select class="form-control" class="select-listagem" id="selectMaterias2">
+                                        <option value="">Selecione...</option>
+                                    </select>
+                                </div>
+                                <!-- Seleciona uma turmas -->
+                                <div class="form-group col-sm-2">
+                                    <label for="turmas2">Turmas</label>
+                                    <select class="form-control" class="select-listagem" id="turmas2">
+                                        <option value="">Selecione...</option>
+                                    </select>
+                                </div>
+                                <span class="col-sm-3"></span>
+                                <div class="col-sm-4 mt-1">
+                                    Titulo da aula
+                                    <div class="input-group mb-3">
+
+                                        <input type="text" class="form-control"
+                                            placeholder="Escreva aqui o titulo da aula"
+                                            aria-label="Escreva aqui o titulo da aula" aria-describedby="button-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary" type="button"
+                                                id="button-addon2">Botão</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="input-group mb-3">
+
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                                </div>
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="inputGroupFile01"
+                                        aria-describedby="inputGroupFileAddon01">
+                                    <label class="custom-file-label" for="inputGroupFile01">Escolher arquivo</label>
+                                </div>
+
+                            </div>
+
+                            <div class="input-group mb-3">
+
+                                <input type="text" class="form-control" placeholder="Escreva o comentario da aula aqui"
+                                    aria-label="Escreva o comentario da aula aqui" aria-describedby="button-addon2">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary" type="button"
+                                        id="button-addon2">Botão</button>
+                                </div>
+
+                            </div>
+
+                            <button type="button" class="btn btn-outline-secondary">Upar Aula</button>
+                            <!-- termina conteudo material de estudo -->
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+
+                    <div class="card-header" id="headingThree">
+
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Grade Horaria dos alunos
+                            </button>
+                        </h5>
+
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        data-parent="#accordionExample">
+
+                        <div class="card-body">
+                            <!-- conteudo "grade horaria dos alunos" aqui -->
+
+                            <div class="row">
+                                <!-- Seleciona uma Materia -->
+                                <div class="form-group col-sm-2">
+                                    <label for="selectMaterias3">Materias</label>
+                                    <select class="form-control" class="select-listagem" id="selectMaterias3">
+                                        <option value="">Selecione...</option>
+                                    </select>
+                                </div>
+                                <!-- Seleciona uma turmas -->
+                                <div class="form-group col-sm-2">
+                                    <label for="turmas3">Turmas</label>
+                                    <select class="form-control" class="select-listagem" id="turmas3">
+                                        <option value="">Selecione...</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            <!-- tabela com alunos -->
+                            <table class="table table-hover table-ativo">
+                                <!-- cabeçalho -->
+                                <thead>
+
+                                    <tr>
+                                        <th scope="col">Aluno</th>
+                                        <th scope="col">Materia</th>
+                                        <th scope="col">Carga Horaria</th>
+                                        <th scope="col">Aprovar</th>
+                                    </tr>
+
+                                </thead>
+                                <!-- linhas da tabela -->
+                                <tbody id="corpoTabela">
+
+                                </tbody>
+                                <!-- termina linhas da tabela -->
+                            </table>
+
+                            <!-- termina conteudo grade horaria dos alunos -->
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+
+                    <div class="card-header" id="headingFor">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseFor" aria-expanded="false" aria-controls="collapsefor">
+                                Relatórios
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseFor" class="collapse" aria-labelledby="headingFor" data-parent="#accordionExample">
+
+                        <div class="card-body">
+                            <!-- conteudo "relatorios" aqui -->
+                            <div class="row">
+                                <!-- Seleciona uma Materia -->
+                                <div class="form-group col-sm-2">
+                                    <label for="selectMaterias4">Materias</label>
+                                    <select class="form-control" class="select-listagem" id="selectMaterias4">
+                                        <option value="">Selecione...</option>
+                                    </select>
+                                </div>
+                                <!-- Seleciona uma turmas -->
+                                <div class="form-group col-sm-2">
+                                    <label for="turmas4">Turmas</label>
+                                    <select class="form-control" class="select-listagem" id="turmas4">
+                                        <option value="">Selecione...</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                        aria-controls="home" aria-selected="true">Aluno 1</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#perfil" role="tab"
+                                        aria-controls="profile" aria-selected="false">Aluno 2</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contato" role="tab"
+                                        aria-controls="contact" aria-selected="false">Aluno 3</a>
+                                </li>
+
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <!-- aluno 1 -->
+                                <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                    aria-labelledby="home-tab">
+                                    <!-- input + aonde aparece o texto -->
+                                    <p class="m-2" id="valorDigitado"></p>
+
+                                    <div class="input-group mb-3">
+
+                                        <input type="text" id=valor class="form-control"
+                                            placeholder="Recipient's username" aria-label="Recipient's username"
+                                            aria-describedby="button-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary" type="button" id="button-addon2"
+                                                onclick="capturar()" value="escreva algo">Botão</button>
+                                        </div>
+
+                                    </div>
+                                    <!-- termina input -->
+                                </div>
+                                <!-- fim aluno 1 -->
+                                <!-- aluno 2 -->
+                                <div class="tab-pane fade" id="perfil" role="tabpanel" aria-labelledby="profile-tab">
+                                    <!-- input + aonde aparece o texto -->
+                                    <p class="m-2" id="valorDigitado1"></p>
+
+                                    <div class="input-group mb-3">
+
+                                        <input type="text" id=valor1 class="form-control"
+                                            placeholder="Recipient's username" aria-label="Recipient's username"
+                                            aria-describedby="button-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary" type="button" id="button-addon2"
+                                                onclick="capturarum()" value="escreva algo">Botão</button>
+                                        </div>
+
+                                    </div>
+                                    <!-- termina input -->
+                                </div>
+                                <!-- fim aluno 2 -->
+                                <!-- aluno 3 -->
+                                <div class="tab-pane fade" id="contato" role="tabpanel" aria-labelledby="contact-tab">
+                                    <!-- input + aonde aparece o texto -->
+                                    <p class="m-2" id="valorDigitado2"></p>
+                                    <div class="input-group mb-3">
+
+                                        <input type="text" id=valor2 class="form-control"
+                                            placeholder="Recipient's username" aria-label="Recipient's username"
+                                            aria-describedby="button-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary" type="button" id="button-addon2"
+                                                onclick="capturardois()" value="escreva algo">Botão</button>
+                                        </div>
+
+                                    </div>
+                                    <!-- termina input -->
+                                </div>
+                                <!-- fim aluno 3 -->
+                            </div>
+
+                            <!-- termina conteudo  relatorio-->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+
+                    <div class="card-header" id="headingFive">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Calendário
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            <!-- conteudo "calendario" aqui -->
+
+                            <div class="row">
+
+                                <div class="col-sm-2">
+
+                                    <div class="input-group input-group-sm mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-sm">titulo</span>
+                                        </div>
+                                        <input type="text" class="form-control" aria-label="Exemplo do tamanho do input"
+                                            aria-describedby="inputGroup-sizing-sm">
+                                    </div>
+
+                                </div>
+                                <div class="col-sm-5">
+
+                                    <div class="input-group input-group-sm mb-3">
+
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroup-sizing-sm">Detalhes do
+                                                evento</span>
+                                        </div>
+                                        <input type="text" class="form-control" aria-label="Exemplo do tamanho do input"
+                                            aria-describedby="inputGroup-sizing-sm">
+
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-3">
+                                    <input type="date">
+                                </div>
+
+                                <div class="col-sm-1">
+                                    <button type="button" class="btn btn-outline-secondary">Agendar</button>
+                                </div>
+
+                            </div>
+                            <div class="caixaContainer">
+
+                                <div class="calendar">
+
+                                    <div class="month">
+                                        <i class="fas fa-angle-left prev"></i>
+                                        <div class="date">
+                                            <h1></h1>
+                                            <p></p>
+                                        </div>
+                                        <i class="fas fa-angle-right next"></i>
+                                    </div>
+
+                                    <div class="weekdays">
+                                        <div>Dom</div>
+                                        <div>Seg</div>
+                                        <div>Ter</div>
+                                        <div>Qua</div>
+                                        <div>Qui</div>
+                                        <div>Sex</div>
+                                        <div>Sab</div>
+                                    </div>
+
+                                    <div class="days"></div>
+
+                                </div>
+                            </div>
+
+                            <!-- termina conteudo  calendario-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- accordion -->
+        </div>
+    </section>
+
+    <footer>
+
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../requestJSON.js"></script>
+    <script src="professor.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+{
+    "Turmas": [
+        {
+            "TurmaA": [
+                {
+                    "Nome": [
+                        "Gabriel Coelho",
+                        "Antonio Costa"
+                    ]
+                },
+                {
+                    "TurmaB": [
+                        {
+                            "Nome": [
+                                "Gabriel Ferreira",
+                                "Barbara Novaes"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

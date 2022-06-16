@@ -1,0 +1,148 @@
+{
+    "NotasAluno": [
+        {
+            "nome": "Gabriel",
+            "sobrenome": "Coelho",
+            "disciplina": [
+                {
+                    "Portugues": [
+                        {
+                            "primeiranota": 10,
+                            "segundanota": 10,
+                            "media": 10
+                        }
+                    ],
+                    "Matemática": [
+                        {
+                            "primeiranota": 10,
+                            "segundanota": 10,
+                            "media": 10
+                        }
+                    ],
+                    "Geografia": [
+                        {
+                            "primeiranota": 10,
+                            "segundanota": 10,
+                            "media": 10
+                        }
+                    ],
+                    "História": [
+                        {
+                            "primeiranota": 10,
+                            "segundanota": 10,
+                            "media": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "Antonio",
+            "sobrenome": "Costa",
+            "disciplina": [
+                {
+                    "Portugues": [
+                        {
+                            "primeiranota": 10,
+                            "segundanota": 10,
+                            "media": 10
+                        }
+                    ],
+                    "Matemática": [
+                        {
+                            "primeiranota": 10,
+                            "segundanota": 10,
+                            "media": 10
+                        }
+                    ],
+                    "Geografia": [
+                        {
+                            "primeiranota": 10,
+                            "segundanota": 10,
+                            "media": 10
+                        }
+                    ],
+                    "História": [
+                        {
+                            "primeiranota": 10,
+                            "segundanota": 10,
+                            "media": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "Gabriel",
+            "sobrenome": "Ferreira",
+            "disciplina": [
+                {
+                    "Portugues": [
+                        {
+                            "primeiranota": 10,
+                            "segundanota": 10,
+                            "media": 10
+                        }
+                    ],
+                    "Matemática": [
+                        {
+                            "primeiranota": 10,
+                            "segundanota": 10,
+                            "media": 10
+                        }
+                    ],
+                    "Geografia": [
+                        {
+                            "primeiranota": 10,
+                            "segundanota": 10,
+                            "media": 10
+                        }
+                    ],
+                    "História": [
+                        {
+                            "primeiranota": 10,
+                            "segundanota": 10,
+                            "media": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "Barbara",
+            "sobrenome": "Novaes",
+            "disciplina": [
+                {
+                    "Portugues": [
+                        {
+                            "primeiranota": 10,
+                            "segundanota": 10,
+                            "media": 10
+                        }
+                    ],
+                    "Matemática": [
+                        {
+                            "primeiranota": 10,
+                            "segundanota": 10,
+                            "media": 10
+                        }
+                    ],
+                    "Geografia": [
+                        {
+                            "primeiranota": 10,
+                            "segundanota": 10,
+                            "media": 10
+                        }
+                    ],
+                    "História": [
+                        {
+                            "primeiranota": 10,
+                            "segundanota": 10,
+                            "media": 10
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
