@@ -43,7 +43,7 @@ class Professor {
 					<td>${$('#selectMaterias3').val()}</td>
 					<td>X Horas</td>
 					<td><input type="checkbox"/></td>
-				</tr>`
+				</tr>'
 			})
 		)
 		
